@@ -48,6 +48,18 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         'Error: Your browser doesn\'t support geolocation.');
 }
 
+
+// Késleltetett megjelenítés
+//setTimeout( function(){
+//    $('#myModal').modal('show');
+//}, 1000);
+
+
+// Popover beállítása
+$('#popover1').popover();
+
+
+
 // A progress folyamat állása
 function changeProgress(progress) {
 
@@ -65,3 +77,25 @@ function changeProgress(progress) {
     var bar = document.querySelector('.progress .progress-bar');
     bar.style.width = progress + "%";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
